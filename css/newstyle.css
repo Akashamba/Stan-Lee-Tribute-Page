@@ -1,0 +1,148 @@
+ /*?Setting root font size to use rem */
+/* might switch to percentage */
+html {
+	font-size: 14px;
+}
+/**/
+
+/* styling images for small screen and tablet views and adding transform */
+img {
+	width: 90vw;
+	background-color: black;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+/*  */
+
+/* Styling for excelsior quote. Needs work. */
+q {
+	font-size: 2rem;
+	color: #FCFBBB;
+	margin: 0 auto;
+}
+/**/
+
+/* Styling for h1 tag */
+h1 {
+	position: sticky;	
+	top: 0;
+	margin: 0 auto;
+	width: 100vw;
+	margin-top: 2%;
+	color: #FCFBBB;
+	background-color: #FF0000;
+	height: 5vh;
+	font-size: 6rem;
+	transition: 0.2s ease;
+	text-align: center;
+	z-index: 2;
+}
+/*  */
+
+/* Styling h2 tags although this doesn't seem to work either */
+h2{
+	color: #FCFBBB;
+  	background-color: #FF0000;
+  	padding: 5px;
+  	display :inline;
+  	font-size: 3.125rem;
+}
+/*  */
+
+/* Setting BG image for the body */
+body {
+	background: #cccccc;
+	background-image:    url("https://i.postimg.cc/63tX7LNL/marvel-collages-pop.jpg");
+  	background-attachment: fixed;
+	-ms-overflow-style: none;
+	margin: 0;
+}
+/*  */
+
+/* Styling all bootstrap containers to have a translucent black BG to help with separation of content from body BG */
+.container {
+	background-color: rgba(0,0,0,0.5);
+	width: 100vw;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+/*  */
+
+/* styling all p and ul to have black BG to help with reading. */ 
+/* Resetting ul padding. Setting all bold dates to red. */
+p, ul, span, footer {
+	background-color: rgba(0,0,0,1);
+	font-size: 2.5rem;
+	color: #FCFBBB;
+	padding: 5px;
+}
+
+ul {
+  padding-inline-start: 40px;
+}
+
+b {
+  color: red;
+}
+/*  */
+
+
+/* To centre captions */
+.wrapper {
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+span, q {
+	display: inline-block;
+	color: #FCFBBB;
+	text-align: center;
+	background-color: #FF0000;
+}
+/*  */
+
+/* Styling Footer */
+footer {
+  background-color: #FF0000;
+  color: #FCFBBB;
+  text-align: center;
+}
+/*  */
+
+/* Styling all links */
+a, a:visited {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #FCFBBB;
+	background: #FF0000;
+}
+/**/
+
+/* Styling footer link */
+/*#foot {
+	background-color: #FF0000;
+}
+*/
+#foot a{
+	color: #FCFBBB;
+	background-color: #FF0000;
+	text-decoration: underline;
+}
+
+#foot a:hover {
+	color: #FF0000;
+	background-color: #FCFBBB;
+}
+
+#quote {
+	display: inline;
+}
+
+/*  */
